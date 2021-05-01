@@ -1,0 +1,19 @@
+{
+  "name": "rmlogger",
+  "version": "1.0.0",
+  "description": "Logger para NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rmacciuci/rmLogger.git"
+  },
+  "author": "Ramiro Macciuci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rmacciuci/rmLogger/issues"
+  },
+  "homepage": "https://github.com/Rmacciuci/rmLogger#readme"
+}
