@@ -1,5 +1,5 @@
 {
-  "name": "rmlogger",
+  "name": "@rmacciuci/rmlogger",
   "version": "1.0.0",
   "description": "Logger para NodeJS",
   "main": "index.js",
