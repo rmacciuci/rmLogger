@@ -43,21 +43,21 @@ class Log {
         this.files.access = fs.createWriteStream(this.access_log, { flags: 'w' });
         this.files.main = fs.createWriteStream(this.main_log, { flags: 'w' });
 
-        if(fs.existsSync(this.error_log)){
-            this.files.error.write(fs.readFileSync(this.error_log, { encoding: 'utf-8' }))
-        }
+        // if(fs.existsSync(this.error_log)){
+        //     this.files.error.write(fs.readFileSync(this.error_log, { encoding: 'utf-8' }))
+        // }
 
-        if(fs.existsSync(this.warn_log)){
-            this.files.warn.write(fs.readFileSync(this.warn_log, { encoding: 'utf-8' }))
-        }
+        // if(fs.existsSync(this.warn_log)){
+        //     this.files.warn.write(fs.readFileSync(this.warn_log, { encoding: 'utf-8' }))
+        // }
 
-        if(fs.existsSync(this.access_log)){
-            this.files.access.write(fs.readFileSync(this.access_log, { encoding: 'utf-8' }))
-        }
+        // if(fs.existsSync(this.access_log)){
+        //     this.files.access.write(fs.readFileSync(this.access_log, { encoding: 'utf-8' }))
+        // }
 
-        if(fs.existsSync(this.main_log)){
-            this.files.main.write(fs.readFileSync(this.main_log, { encoding: 'utf-8' }))
-        }
+        // if(fs.existsSync(this.main_log)){
+        //     this.files.main.write(fs.readFileSync(this.main_log, { encoding: 'utf-8' }))
+        // }
         
 
         return this;
